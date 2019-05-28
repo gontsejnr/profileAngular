@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Home</title>
+        
+    </head>
+    <body>
+        <ul class="nav">
+            <li *ngFor="let item of pageMenu" (click)="onNavi(item)"><a class="active" >{{item.name}}</a></li>
+          </ul>
+
+
+
+
+
+
+
+
+
+          
+<div class="footer">
+    <p>Created by Gontse Maepa</p>
+  </div>
+
+    </body>
+</html>
+<router-outlet></router-outlet>
